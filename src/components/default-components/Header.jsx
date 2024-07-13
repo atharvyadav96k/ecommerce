@@ -2,13 +2,12 @@ export default function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+        <div className="container">
+          <a className="navbar-brand" href="#" style={{width: "70px"}}>
             <img
               src={require("../../flash.png")}
               alt=""
-              width="30"
-              height="24"
+              height="30"
               className="d-inline-block align-text-top"
             />
           </a>
@@ -26,7 +25,7 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link" aria-current="page" href="#">
                   Home
                 </a>
               </li>
@@ -70,26 +69,16 @@ export default function Header() {
                       Watch
                     </a>
                   </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Contact
-                    </a>
-                  </li>
                 </ul>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Contact
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                About
                 </a>
               </li>
               
