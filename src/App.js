@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/default-components/Header';
 
 function App() {
   return (
-    <div>
-      
+    <div className='container'>
+      <Header/>
     </div>
   );
 }
