@@ -31,9 +31,9 @@ export default function Carousel() {
         ></button>
       </div>
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active" style={{objectFit: "cover", objectPosition: "center"}}>
           <img
-            src={require("../../../images/1.jpg")}
+            src="https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="d-block w-100"
             alt="First slide"
             style={{ height: '100%', objectFit: 'cover', objectPosition: 'center' }}
@@ -43,9 +43,9 @@ export default function Carousel() {
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" style={{objectFit: "cover", objectPosition: "center"}}>
           <img
-            src={require("../../../images/2.jpg")}
+            src="https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="d-block w-100"
             alt="Second slide"
             style={{ height: '100%', objectFit: 'cover' }}
@@ -55,12 +55,12 @@ export default function Carousel() {
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" style={{objectFit: "cover", objectPosition: "center"}}>
           <img
-            src={require("../../../images/3.jpg")}
+            src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="d-block w-100"
             alt="Third slide"
-            style={{ height: '100%', objectFit: 'cover' }}
+            style={{ height: '100%', objectFit: 'cover', objectPosition: "center" }}
           />
           <div className="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>

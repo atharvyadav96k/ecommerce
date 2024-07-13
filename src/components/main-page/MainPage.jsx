@@ -9,8 +9,8 @@ export default function MainPage() {
                 <Carousel />
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 offer-res">
-                <div className="black"><Offer imagePath={require("../../images/3.jpg")} OfferName={"HeadPhone"}/></div>
-                <div className="black"><Offer imagePath={require("../../images/2.jpg")} OfferName={"HeadPhone"}/></div>
+                <div className="col position-relative p-1"><Offer imagePath={"https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGVhZHBob25lfGVufDB8MHwwfHx8MA%3D%3D"} OfferName={"HeadPhone"}/></div>
+                <div className="col position-relative p-1"><Offer imagePath={"https://images.unsplash.com/photo-1593121925328-369cc8459c08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhlYWRwaG9uZXxlbnwwfDB8MHx8fDA%3D"} OfferName={"HeadPhone"}/></div>
             </div>
           </div>
           <div className="row mt-3">

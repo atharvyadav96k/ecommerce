@@ -8,13 +8,16 @@
     .offer-res{
         flex-direction: row;
     }
+    .black{
+        height: 50%;
+    }
 }
 @media screen and (min-width: 700px) {
     .offer-res{
         flex-direction: column;
     }
     .responsive-car{
-        aspect-ratio: 10/3;
+        aspect-ratio: 3/1.5;
     }
     
 }
