@@ -1,0 +1,20 @@
+.offer-res{
+    display: flex;
+}
+@media screen and (max-width: 700px){
+    .responsive-car{
+        aspect-ratio: 3/2;
+    }
+    .offer-res{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 700px) {
+    .offer-res{
+        flex-direction: column;
+    }
+    .responsive-car{
+        aspect-ratio: 10/3;
+    }
+    
+}
