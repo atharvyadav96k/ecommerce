@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/default-components/Header';
+import MainPage from './components/main-page/MainPage';
 
 function App() {
   return (
-    <div>
-      
+    <div className='container-fluid'>
+      <Header/>
+      <MainPage/>
     </div>
   );
 }
