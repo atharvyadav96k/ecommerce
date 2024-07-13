@@ -7,4 +7,4 @@
 3.  Main Page Folder
 *   Main product page 
 *   "src/components/main-page/components" all all components required for main page
-4.  Other Files will be inside "/src/components"
+4.  Other Files will be inside "/src/components" like about us page, contact us page
