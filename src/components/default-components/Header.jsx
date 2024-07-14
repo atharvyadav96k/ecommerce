@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div>
+    <div style={{position: "sticky", top: 0, zIndex: 99}}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <a className="navbar-brand" href="#" style={{width: "70px"}}>
