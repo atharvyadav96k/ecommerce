@@ -1,6 +1,6 @@
 export default function Offer({imagePath, OfferName}) {
   return (
-      <div className="card bg-dark text-white" style={{height: "100%", width: "100%",position: "relative", minHeight:"150px"}}>
+      <div className="card text-white" style={{height: "100%", width: "100%",position: "relative", minHeight:"150px"}}>
         <img src={imagePath} className="card-img" style={{
         width: "100%",
         height: "100%",
