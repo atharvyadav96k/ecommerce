@@ -2,9 +2,11 @@ import Carousel from "./components/Carousel";
 import Offer from "./components/Offer";
 import ProductCard from "./components/ProductCard";
 import ProductContainerScroll from "./components/ProductContainerScroll";
+import RecommendCard from "./components/RecommendCard";
 export default function MainPage() {
   return (
     <div className="container">
+          {/* Hero Srction of website */}
           <div className="row mt-3">
             <div className="col-lg-9 col-md-9 col-sm-12">
                 <Carousel />
@@ -25,8 +27,24 @@ export default function MainPage() {
                     <ProductCard productName={"Hello"} imagePath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxZBAnDVNqJoj9eNTCq7mRGzD10YRh9-Mp8w&s"}/>
                 </div>
           </div>
+          {/* End of hero section */}
+          {/* Product Section */}
           <ProductContainerScroll title="Best Seller"/>
           <ProductContainerScroll title="Trending this week"/>
+          {/* End of Product section */}
+          {/* Recommendation Section      */}
+          <h5>Recommended for you</h5>
+          <div className="row recommend-res">
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+            <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
+          </div>
     </div>
   );
 }

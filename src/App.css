@@ -1,16 +1,24 @@
 .offer-res {
     display: flex;
 }
-
+@media screen and (max-width: 990px){
+    .recommend-res .card-child:last-child{
+        display: none;
+    }
+}
 @media screen and (max-width: 700px) {
     .responsive-car {
         aspect-ratio: 3/2;
     }
-
+    .recommend-res .card-child:last-child{
+        display: none;
+    }
     .offer-res {
         flex-direction: row;
     }
-
+    .recommend-res .card-child:nth-child(even){
+        display: none;
+    }
     .black {
         height: 50%;
     }
@@ -51,7 +59,6 @@
     display: inline-block;
     float: none;
     width: 300px;
-    /* Adjust the width as necessary */
 }
 /* Display light text font in light background */
 .display-text{
