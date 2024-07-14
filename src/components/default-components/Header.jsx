@@ -25,13 +25,13 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className="nav-link active dropdown-toggle"
                   href="#"
                   id="navbarDropdownMenuLink"
                   role="button"
@@ -72,12 +72,12 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link active" href="#">
                   Contact
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link active" href="#">
                 About
                 </a>
               </li>
@@ -85,7 +85,7 @@ export default function Header() {
             </ul>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link active" href="#">
                     Admin
                   </a>
               </li>
