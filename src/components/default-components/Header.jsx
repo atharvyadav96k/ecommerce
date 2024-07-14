@@ -77,14 +77,18 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
+                <Link to={"/contact"} className="txt-decoration-none">
                 <a className="nav-link active" href="#">
                   Contact
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
+                <Link className="txt-decoration-none" to={"/about"}>
                 <a className="nav-link active" href="#">
                 About
                 </a>
+                </Link>
               </li>
               
             </ul>

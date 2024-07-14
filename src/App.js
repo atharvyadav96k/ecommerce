@@ -8,6 +8,8 @@ import AdminLogin from './components/Admin/AdminLogin';
 import AdminDashBoard from './components/Admin/components/AdminDashBoard';
 import UploadForm from './components/Admin/components/UploadForm';
 import DisplayProductList from './components/Admin/components/DisplayProductList';
+import Contact from './components/default-components/Contact';
+import AboutUs from './components/default-components/AboutUs';
 function App() {
   return (
     <div className='container-fluid'>
@@ -22,6 +24,9 @@ function App() {
             <Route path='/admin/my-products' element={<DisplayProductList/>}/>
             <Route path='/admin/orders' />
           </Route>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/about' element={<AboutUs/>}/>
+          <Route path='/contact' element={<AboutUs/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
