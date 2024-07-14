@@ -64,5 +64,11 @@
 .display-text{
     padding: 2px;
     border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.dark-light{
+    background-color: #f1f3f7;;
+}
+#darkLight:active .dark-light{
+    background-color: black;
 }
