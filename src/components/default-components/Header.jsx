@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <div style={{position: "sticky", top: 0, zIndex: 99}}>
@@ -25,9 +27,12 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
+                <Link to={"/"} className="txt-decoration-none">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
+                </Link>
+                
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -72,22 +77,28 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
+                <Link to={"/contact"} className="txt-decoration-none">
                 <a className="nav-link active" href="#">
                   Contact
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
+                <Link className="txt-decoration-none" to={"/about"}>
                 <a className="nav-link active" href="#">
                 About
                 </a>
+                </Link>
               </li>
               
             </ul>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
+                <Link to={"/Login"} className="txt-decoration-none">
                   <a className="nav-link active" href="#">
                     Admin
                   </a>
+                </Link>
               </li>
             </ul>
           </div>
