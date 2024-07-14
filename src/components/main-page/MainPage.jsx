@@ -3,7 +3,7 @@ import Offer from "./components/Offer";
 import ProductCard from "./components/ProductCard";
 import ProductContainerScroll from "./components/ProductContainerScroll";
 import RecommendCard from "./components/RecommendCard";
-import Footer from "../default-components/Footer";
+
 export default function MainPage() {
   return (
     <div className="container">
@@ -47,7 +47,7 @@ export default function MainPage() {
             <div className="col-lg-4 col-md-6 card-child"><RecommendCard/></div>
           </div>
           {/* End of recommendation section */}
-          <Footer/>
+          
     </div>
   );
 }
